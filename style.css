@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+p{
+    position: absolute;
+    top: 100px;
+    font-size: xx-large;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.form{
+    display: inline;
+    height: 47vh;
+    width: 27vw;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+    background-color: rgb(247, 247, 247);
+}
+.textarea{
+    display: flex;
+}
+#text{
+    height: 30px;
+    width: 25vw;
+    border-radius: 5px;
+    font-size: larger;
+    padding: 0 10px;
+    position: relative;
+}
+#Copy{
+    position: absolute;
+    height: 23px;
+    width: 34px;
+    margin-left: 310px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHFIqTawQ-DaLbctKh68dy5a_urvdoIP7ahn3jmota6bLwowjaM9lkZUJk2k4almuv8PQ&usqp=CAU");
+    /* background-image:url("https://www.javascripttutorial.net/wp-content/themes/evolution/img/copy-light.svg"); */
+    background-size: cover;
+    top: 181px;
+    border: none;
+}
+#Copy:hover{
+    cursor: pointer;
+}
+.lower_characters,.upper_characters,.numbers,.special_characters,.password_length{
+    display: flex;
+    padding-top: 20px;
+}
+#password,#upper_char,#lower_char,#num,#special_char{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+#btn{
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#btn:hover{
+    background-color: rgb(171, 225, 247);
+}

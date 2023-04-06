@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+            <p>Welcome to password generator</p>
+        <div class="form">
+            <form>
+               <div class="textarea">
+                   <input type="text" id="text" size="50vw" placeholder="Password will be written here">
+                    <button id="Copy"></button>
+               </div>
+                <div class="password_length">
+                    The length of Password <input type="number" id="password" min="3" max="20">
+                </div>
+                <div class="upper_characters">
+                    Do you want to add Upper_Case_Characters <input type="checkbox" id="upper_char">
+                </div>
+                <div class="lower_characters">
+                    Do you want to add LowerCase_Characters <input type="checkbox" id="lower_char">
+                </div>
+                <div class="numbers">
+                    Do you want to add Numbers <input type="checkbox" id="num">
+                </div>
+                <div class="special_characters">
+                    Do you want to add special Characters <input type="checkbox" id="special_char">
+                </div>
+            </form>
+            <div class="button">
+                <button id="btn">Generate password</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
