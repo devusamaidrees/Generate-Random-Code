@@ -17,6 +17,7 @@ The password generator allows you to generate a random password based on the fol
 3. **Lowercase characters** - include lowercase characters in the password
 4. **Numbers** - include numbers in the password
 5. **Special characters** - include special characters (such as !@#$%^&*()~) in the password
+
 Once you have selected the options, click on the "**Generate Password**" button to generate a random password.
 
 You can also copy the generated password to your clipboard by clicking on the "**Copy to Clipboard**" button.
