@@ -4,20 +4,20 @@ This is a simple password generator built using JavaScript. It generates a rando
 # Getting Started
 To get started with the password generator, you need to:  
 
-##### 1. Download or clone the repository
-##### 2. Open the index.html file in your browser
-##### 3. Use the password generator by selecting the options and clicking on the "Generate Password" button.
+**1.** Download or clone the repository
+**2.** Open the **index.html** file in your browser
+**3.** Use the password generator by selecting the options and clicking on the "**Generate Password**" button.
 # How to Use
 The password generator allows you to generate a random password based on the following options:
 
-##### 1. `Length` - specify the length of the password (between 4 and 20 characters)
-##### 2. `Uppercase characters` - include uppercase characters in the password
-##### 3. `Lowercase characters `- include lowercase characters in the password
-##### 4. `Numbers` - include numbers in the password
-##### 5. `Special characters` - include special characters (such as !@#$%^&*()~) in the password
-Once you have selected the options, click on the "Generate Password" button to generate a random password.
+1. **Length** - specify the length of the password (between 4 and 20 characters)
+2. **Uppercase characters** - include uppercase characters in the password
+3. **Lowercase characters** - include lowercase characters in the password
+4. **Numbers** - include numbers in the password
+5. **Special characters** - include special characters (such as !@#$%^&*()~) in the password
+Once you have selected the options, click on the "**Generate Password**" button to generate a random password.
 
-You can also copy the generated password to your clipboard by clicking on the "Copy to Clipboard" button.
+You can also copy the generated password to your clipboard by clicking on the "**Copy to Clipboard**" button.
 
 # Code Explanation
 The code is written in JavaScript and consists of a single class password. The class has a constructor function that initializes the password to an empty string.
