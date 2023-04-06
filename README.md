@@ -10,7 +10,7 @@ To get started with the password generator, you need to:
 # How to Use
 The password generator allows you to generate a random password based on the following options:
 
-##### 1. **Length** - specify the length of the password (between 4 and 20 characters)
+##### 1. `Length` - specify the length of the password (between 4 and 20 characters)
 ##### 2. Uppercase characters - include uppercase characters in the password
 ##### 3. Lowercase characters - include lowercase characters in the password
 ##### 4. Numbers - include numbers in the password
