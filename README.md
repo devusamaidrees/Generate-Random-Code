@@ -5,7 +5,9 @@ This is a simple password generator built using JavaScript. It generates a rando
 To get started with the password generator, you need to:  
 
 **1.** Download or clone the repository
+
 **2.** Open the **index.html** file in your browser
+
 **3.** Use the password generator by selecting the options and clicking on the "**Generate Password**" button.
 # How to Use
 The password generator allows you to generate a random password based on the following options:
